@@ -1,42 +1,82 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Loja Digital - GitHub Sales</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Pizzaria Delícia - Cardápio Online 🍕</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>🛒 Minha Loja Open Source</h1>
-        <nav>
-            <a href="index.html">Início</a>
-            <a href="produtos.html">Produtos</a>
-            <a href="#contato">Contato</a>
-        </nav>
+        <div class="container">
+            <h1>Pizzaria Delícia</h1>
+            <p>O sabor da tradição em cada fatia!</p>
+            <a href="https://api.whatsapp.com/send?phone=55XXYYYYYYYYY&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido!" target="_blank" class="btn-whatsapp-header">
+                Fazer Pedido Agora!
+            </a>
+        </div>
     </header>
 
-    <main>
-        <section id="banner">
-            <h2>🎉 Oferta da Semana: Código Livre!</h2>
-            <p>Os melhores códigos de vendas, 100% open source no GitHub.</p>
-            <a href="produtos.html" class="button">Ver Produtos</a>
-        </section>
-
-        <section id="destaques">
-            <h3>Produtos em Destaque</h3>
-            <div class="produto-card">
-                <img src="img/produto1.png" alt="Produto 1">
-                <h4>Template HTML/CSS Básico</h4>
-                <p>Estrutura leve e responsiva.</p>
-                <span class="preco">R$ 0,00</span>
-                <a href="#" class="button-small">Ver no GitHub</a>
+    <main class="container">
+        <section id="cardapio">
+            <h2>🔥 Pizzas Clássicas</h2>
+            
+            <div class="pizza-item">
+                <div class="pizza-info">
+                    <h3>Mussarela</h3>
+                    <p>Molho de tomate especial, bastante mussarela e orégano. O clássico que não pode faltar.</p>
+                </div>
+                <div class="pizza-prices">
+                    <span class="price">R$ 48,00</span>
+                    <a href="https://api.whatsapp.com/send?phone=55XXYYYYYYYYY&text=Ol%C3%A1%2C%20gostaria%20de%20pedir%20uma%20pizza%20Mussarela." target="_blank" class="btn-pedido">Pedir</a>
+                </div>
             </div>
-            </section>
+
+            <div class="pizza-item">
+                <div class="pizza-info">
+                    <h3>Calabresa</h3>
+                    <p>Calabresa fatiada, cebola e azeite. Perfeita para quem ama o sabor picante.</p>
+                </div>
+                <div class="pizza-prices">
+                    <span class="price">R$ 52,00</span>
+                    <a href="https://api.whatsapp.com/send?phone=55XXYYYYYYYYY&text=Ol%C3%A1%2C%20gostaria%20de%20pedir%20uma%20pizza%20Calabresa." target="_blank" class="btn-pedido">Pedir</a>
+                </div>
+            </div>
+            
+            <div class="pizza-item">
+                <div class="pizza-info">
+                    <h3>Frango com Catupiry</h3>
+                    <p>Frango desfiado temperado e uma camada generosa do nosso catupiry original.</p>
+                </div>
+                <div class="pizza-prices">
+                    <span class="price">R$ 58,00</span>
+                    <a href="https://api.whatsapp.com/send?phone=55XXYYYYYYYYY&text=Ol%C3%A1%2C%20gostaria%20de%20pedir%20uma%20pizza%20Frango%20com%20Catupiry." target="_blank" class="btn-pedido">Pedir</a>
+                </div>
+            </div>
+
+            <h2 style="margin-top: 40px;">🍫 Pizzas Doces</h2>
+            
+            <div class="pizza-item">
+                <div class="pizza-info">
+                    <h3>Chocolate com Morango</h3>
+                    <p>Chocolate ao leite derretido e morangos frescos picados. Uma delícia!</p>
+                </div>
+                <div class="pizza-prices">
+                    <span class="price">R$ 60,00</span>
+                    <a href="https://api.whatsapp.com/send?phone=55XXYYYYYYYYY&text=Ol%C3%A1%2C%20gostaria%20de%20pedir%20uma%20pizza%20Chocolate%20com%20Morango." target="_blank" class="btn-pedido">Pedir</a>
+                </div>
+            </div>
+            
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Minha Loja Digital. Código disponível no GitHub.</p>
+        <div class="container">
+            <p>📍 Entregamos em toda a região central.</p>
+            <p>☎️ Telefone: (XX) XXXX-XXXX</p>
+            <p>&copy; 2025 Pizzaria Delícia. Todos os direitos reservados.</p>
+        </div>
     </footer>
 </body>
 </html>
